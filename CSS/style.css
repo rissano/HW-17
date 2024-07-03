@@ -90,6 +90,21 @@ p {
     padding-left: 30px;
 }
 
+.button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: light bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
 
 
 .workTogether {
@@ -126,7 +141,7 @@ p {
     border: none;
     border-radius: 5px;
     transition: 0.3s;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: light bold;
     text-transform: uppercase;
     color: whitesmoke;
@@ -152,5 +167,9 @@ footer ul {
 }
 
 .btn:hover {
+    background-color: #333333;
+}
+
+.button:hover {
     background-color: #333333;
 }
